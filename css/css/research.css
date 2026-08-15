@@ -1,0 +1,1557 @@
+/*====================================================
+RESEARCH PAGE STYLES
+Eagle Crest Aerospace
+====================================================*/
+
+
+/*====================================================
+RESEARCH HERO
+====================================================*/
+
+.research-hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:180px 10% 120px;
+
+    background:
+        linear-gradient(rgba(5,7,13,.88),rgba(5,7,13,.94)),
+        url("../images/hero/research-bg.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+}
+
+.research-hero-content{
+
+    max-width:950px;
+
+    margin:auto;
+
+}
+
+.research-hero .section-tag{
+
+    display:inline-block;
+
+    color:#00bfff;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    margin-bottom:25px;
+
+}
+
+.research-hero h1{
+
+    font-size:68px;
+
+    font-weight:800;
+
+    line-height:1.15;
+
+    margin-bottom:30px;
+
+}
+
+.research-hero p{
+
+    max-width:850px;
+
+    margin:auto;
+
+    color:#d2d9e3;
+
+    font-size:20px;
+
+    line-height:36px;
+
+}
+
+.research-hero .hero-buttons{
+
+    margin-top:50px;
+
+}
+
+
+/*====================================================
+SECTION HEADING
+====================================================*/
+
+.section-heading{
+
+    text-align:center;
+
+    max-width:900px;
+
+    margin:0 auto 70px;
+
+}
+
+.section-heading h2{
+
+    font-size:48px;
+
+    margin-bottom:25px;
+
+}
+
+.section-heading p{
+
+    color:#c9d1db;
+
+    font-size:18px;
+
+    line-height:34px;
+
+}
+
+
+/*====================================================
+ABOUT RESEARCH
+====================================================*/
+
+.research-overview{
+
+    background:#0b111b;
+
+    display:grid;
+
+    grid-template-columns:1.2fr .8fr;
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+.research-left h2{
+
+    font-size:46px;
+
+    margin-bottom:30px;
+
+}
+
+.research-left p{
+
+    color:#d3d9e0;
+
+    font-size:18px;
+
+    line-height:34px;
+
+    margin-bottom:25px;
+
+}
+
+
+/*====================================================
+INFO CARDS
+====================================================*/
+
+.research-right{
+
+    display:grid;
+
+    gap:25px;
+
+}
+
+.research-info-card{
+
+    background:#121b29;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.research-info-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#00bfff;
+
+    box-shadow:0 20px 40px rgba(0,191,255,.12);
+
+}
+
+.research-info-card h3{
+
+    color:#00bfff;
+
+    font-size:26px;
+
+    margin-bottom:18px;
+
+}
+
+.research-info-card p{
+
+    color:#d3d9e0;
+
+    line-height:30px;
+
+}
+
+
+/*====================================================
+RESPONSIVE
+====================================================*/
+
+@media(max-width:1100px){
+
+.research-overview{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.research-hero{
+
+    padding:180px 7% 100px;
+
+}
+
+.research-hero h1{
+
+    font-size:42px;
+
+}
+
+.research-hero p{
+
+    font-size:17px;
+
+    line-height:30px;
+
+}
+
+.section-heading h2{
+
+    font-size:34px;
+
+}
+
+.research-left h2{
+
+    font-size:34px;
+
+}
+
+.research-left p{
+
+    font-size:16px;
+
+    line-height:30px;
+
+}
+
+.research-info-card{
+
+    padding:28px;
+
+}
+
+}
+/*====================================================
+RESEARCH PHILOSOPHY
+====================================================*/
+
+.research-philosophy{
+
+    background:#05070d;
+
+    padding:110px 10%;
+
+}
+
+.philosophy-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+    margin-top:60px;
+
+}
+
+.philosophy-card{
+
+    background:#121b29;
+
+    padding:40px 30px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.philosophy-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#00bfff;
+
+    box-shadow:0 20px 40px rgba(0,191,255,.15);
+
+}
+
+.philosophy-icon{
+
+    width:80px;
+
+    height:80px;
+
+    margin:0 auto 25px;
+
+    border-radius:50%;
+
+    background:rgba(0,191,255,.12);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:38px;
+
+}
+
+.philosophy-card h3{
+
+    color:#00bfff;
+
+    font-size:26px;
+
+    margin-bottom:18px;
+
+}
+
+.philosophy-card p{
+
+    color:#d2d8df;
+
+    line-height:30px;
+
+    font-size:17px;
+
+}
+
+
+
+/*====================================================
+RESEARCH DOMAINS
+====================================================*/
+
+.research-domains{
+
+    background:#0b111b;
+
+    padding:120px 10%;
+
+}
+
+.domains-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:35px;
+
+    margin-top:60px;
+
+}
+
+.domain-card{
+
+    background:#111827;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.domain-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:5px;
+
+    height:100%;
+
+    background:#00bfff;
+
+}
+
+.domain-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#00bfff;
+
+    box-shadow:0 20px 45px rgba(0,191,255,.15);
+
+}
+
+.domain-icon{
+
+    width:75px;
+
+    height:75px;
+
+    border-radius:50%;
+
+    background:rgba(0,191,255,.12);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:34px;
+
+    margin-bottom:25px;
+
+}
+
+.domain-card h3{
+
+    color:#00bfff;
+
+    font-size:28px;
+
+    margin-bottom:18px;
+
+}
+
+.domain-card p{
+
+    color:#d2d8df;
+
+    line-height:30px;
+
+    font-size:17px;
+
+}
+
+
+
+/*====================================================
+RESPONSIVE
+====================================================*/
+
+@media(max-width:992px){
+
+.philosophy-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.domains-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+
+@media(max-width:768px){
+
+.research-philosophy,
+
+.research-domains{
+
+    padding:80px 7%;
+
+}
+
+.philosophy-grid,
+
+.domains-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.philosophy-card,
+
+.domain-card{
+
+    padding:30px;
+
+}
+
+.philosophy-card h3,
+
+.domain-card h3{
+
+    font-size:24px;
+
+}
+
+.philosophy-card p,
+
+.domain-card p{
+
+    font-size:16px;
+
+    line-height:28px;
+
+}
+
+.philosophy-icon,
+
+.domain-icon{
+
+    width:65px;
+
+    height:65px;
+
+    font-size:30px;
+
+}
+
+}
+/*====================================================
+RESEARCH METHODOLOGY
+====================================================*/
+
+.research-methodology{
+
+    background:#05070d;
+
+    padding:120px 10%;
+
+}
+
+.methodology-timeline{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+    gap:30px;
+
+    margin-top:60px;
+
+}
+
+.step{
+
+    background:#111827;
+
+    padding:35px 30px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    position:relative;
+
+    transition:.35s;
+
+    overflow:hidden;
+
+}
+
+.step::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:5px;
+
+    background:#00bfff;
+
+}
+
+.step:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#00bfff;
+
+    box-shadow:0 20px 45px rgba(0,191,255,.15);
+
+}
+
+.step-number{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    background:#00bfff;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+}
+
+.step h3{
+
+    color:#00bfff;
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+}
+
+.step p{
+
+    color:#d2d8df;
+
+    line-height:30px;
+
+    font-size:16px;
+
+}
+
+
+
+/*====================================================
+CURRENT RESEARCH
+====================================================*/
+
+.current-research{
+
+    background:#0b111b;
+
+    padding:120px 10%;
+
+}
+
+.program-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+    margin-top:60px;
+
+}
+
+.program-card{
+
+    background:#111827;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.program-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#00bfff;
+
+    box-shadow:0 20px 45px rgba(0,191,255,.15);
+
+}
+
+.program-card h3{
+
+    color:#00bfff;
+
+    font-size:24px;
+
+    margin-bottom:20px;
+
+    line-height:34px;
+
+}
+
+.program-card p{
+
+    color:#d4d9df;
+
+    line-height:30px;
+
+    font-size:16px;
+
+}
+
+
+
+/*====================================================
+TIMELINE CONNECTOR
+====================================================*/
+
+.methodology-timeline .step{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.step-number{
+
+    flex-shrink:0;
+
+}
+
+
+
+/*====================================================
+SECTION SPACING
+====================================================*/
+
+.research-methodology .section-heading,
+
+.current-research .section-heading{
+
+    margin-bottom:60px;
+
+}
+
+
+
+/*====================================================
+RESPONSIVE
+====================================================*/
+
+@media(max-width:992px){
+
+.methodology-timeline{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.program-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+
+@media(max-width:768px){
+
+.research-methodology,
+
+.current-research{
+
+    padding:90px 7%;
+
+}
+
+.methodology-timeline,
+
+.program-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.step,
+
+.program-card{
+
+    padding:30px;
+
+}
+
+.step h3{
+
+    font-size:22px;
+
+}
+
+.program-card h3{
+
+    font-size:22px;
+
+}
+
+.step-number{
+
+    width:55px;
+
+    height:55px;
+
+    font-size:20px;
+
+}
+
+}
+/*====================================================
+RESEARCH FACILITIES
+====================================================*/
+
+.research-facilities{
+
+    background:#05070d;
+
+    padding:120px 10%;
+
+}
+
+.facilities-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:35px;
+
+    margin-top:60px;
+
+}
+
+.facility-card{
+
+    background:#111827;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.facility-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#00bfff;
+
+    box-shadow:0 20px 40px rgba(0,191,255,.15);
+
+}
+
+.facility-card h3{
+
+    color:#00bfff;
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+}
+
+.facility-card p{
+
+    color:#d4d9df;
+
+    line-height:30px;
+
+    font-size:16px;
+
+}
+
+
+
+/*====================================================
+RESEARCH COLLABORATION
+====================================================*/
+
+.research-collaboration{
+
+    background:#0b111b;
+
+    padding:120px 10%;
+
+    text-align:center;
+
+}
+
+.collaboration-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:35px;
+
+    margin-top:60px;
+
+}
+
+.collaboration-card{
+
+    background:#111827;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.collaboration-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#00bfff;
+
+    box-shadow:0 20px 40px rgba(0,191,255,.15);
+
+}
+
+.collaboration-card h3{
+
+    color:#00bfff;
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+}
+
+.collaboration-card p{
+
+    color:#d2d8df;
+
+    line-height:30px;
+
+}
+
+
+
+/*====================================================
+JOIN OUR TEAM
+====================================================*/
+
+.join-team{
+
+    background:#05070d;
+
+    padding:120px 10%;
+
+    text-align:center;
+
+}
+
+.team-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:35px;
+
+    margin-top:60px;
+
+}
+
+.team-card{
+
+    background:#111827;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.team-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#00bfff;
+
+    box-shadow:0 20px 40px rgba(0,191,255,.15);
+
+}
+
+.team-card h3{
+
+    color:#00bfff;
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+}
+
+.team-card p{
+
+    color:#d2d8df;
+
+    line-height:30px;
+
+}
+
+
+
+/*====================================================
+BUTTONS INSIDE RESEARCH PAGE
+====================================================*/
+
+.research-collaboration .hero-buttons,
+
+.join-team .hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    margin-top:50px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+/*====================================================
+RESPONSIVE
+====================================================*/
+
+@media(max-width:992px){
+
+.facilities-grid,
+
+.collaboration-grid,
+
+.team-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+
+@media(max-width:768px){
+
+.research-facilities,
+
+.research-collaboration,
+
+.join-team{
+
+    padding:90px 7%;
+
+}
+
+.facilities-grid,
+
+.collaboration-grid,
+
+.team-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.facility-card,
+
+.collaboration-card,
+
+.team-card{
+
+    padding:30px;
+
+}
+
+.facility-card h3,
+
+.collaboration-card h3,
+
+.team-card h3{
+
+    font-size:22px;
+
+}
+
+}
+/*====================================================
+RESEARCH CALL TO ACTION
+====================================================*/
+
+.research-cta{
+
+    padding:120px 10%;
+
+    text-align:center;
+
+    background:linear-gradient(135deg,#0099ff,#005fa3);
+
+}
+
+.research-cta h2{
+
+    font-size:52px;
+
+    color:#ffffff;
+
+    margin-bottom:25px;
+
+}
+
+.research-cta p{
+
+    max-width:850px;
+
+    margin:0 auto 40px;
+
+    color:#f5f5f5;
+
+    font-size:19px;
+
+    line-height:34px;
+
+}
+
+.research-cta .hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+/*====================================================
+FOOTER
+====================================================*/
+
+footer{
+
+    background:#03060d;
+
+    padding:80px 10% 30px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.footer-container{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr 1fr;
+
+    gap:40px;
+
+}
+
+.footer-about img{
+
+    width:95px;
+
+    margin-bottom:20px;
+
+}
+
+.footer-about h3{
+
+    color:white;
+
+    font-size:30px;
+
+    margin-bottom:15px;
+
+}
+
+.footer-about p{
+
+    color:#cfd5df;
+
+    line-height:30px;
+
+}
+
+.footer-links,
+
+.footer-research,
+
+.footer-contact{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.footer-links h4,
+
+.footer-research h4,
+
+.footer-contact h4{
+
+    color:#00bfff;
+
+    margin-bottom:20px;
+
+}
+
+.footer-links a,
+
+.footer-research a{
+
+    color:#d2d8df;
+
+    margin-bottom:12px;
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover,
+
+.footer-research a:hover{
+
+    color:#00bfff;
+
+    padding-left:8px;
+
+}
+
+.footer-contact p{
+
+    color:#d2d8df;
+
+    margin-bottom:10px;
+
+}
+
+footer hr{
+
+    margin:50px 0 20px;
+
+    border:none;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.copyright{
+
+    text-align:center;
+
+    color:#9aa5b2;
+
+    font-size:15px;
+
+}
+
+
+
+/*====================================================
+GLOBAL HOVER EFFECTS
+====================================================*/
+
+.research-info-card,
+
+.philosophy-card,
+
+.domain-card,
+
+.step,
+
+.program-card,
+
+.facility-card,
+
+.collaboration-card,
+
+.team-card{
+
+    transition:.35s ease;
+
+}
+
+.research-info-card:hover,
+
+.philosophy-card:hover,
+
+.domain-card:hover,
+
+.step:hover,
+
+.program-card:hover,
+
+.facility-card:hover,
+
+.collaboration-card:hover,
+
+.team-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.primary-btn,
+
+.secondary-btn{
+
+    transition:.35s ease;
+
+}
+
+.primary-btn:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.secondary-btn:hover{
+
+    transform:translateY(-4px);
+
+}
+
+
+
+/*====================================================
+SCROLL OFFSET
+====================================================*/
+
+html{
+
+    scroll-padding-top:100px;
+
+}
+
+
+
+/*====================================================
+TABLETS
+====================================================*/
+
+@media(max-width:1100px){
+
+.footer-container{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:35px;
+
+}
+
+.research-cta h2{
+
+    font-size:42px;
+
+}
+
+}
+
+
+
+/*====================================================
+MOBILE
+====================================================*/
+
+@media(max-width:768px){
+
+.research-hero{
+
+    min-height:85vh;
+
+}
+
+.section-heading h2{
+
+    font-size:34px;
+
+}
+
+.footer-container{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+.footer-about img{
+
+    margin:auto auto 20px;
+
+}
+
+.footer-links,
+
+.footer-research,
+
+.footer-contact{
+
+    align-items:center;
+
+}
+
+.research-cta{
+
+    padding:90px 7%;
+
+}
+
+.research-cta h2{
+
+    font-size:34px;
+
+}
+
+.research-cta p{
+
+    font-size:17px;
+
+    line-height:30px;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.primary-btn,
+
+.secondary-btn{
+
+    width:230px;
+
+    text-align:center;
+
+}
+
+}
+
+
+
+/*====================================================
+SMALL MOBILE
+====================================================*/
+
+@media(max-width:480px){
+
+.research-hero h1{
+
+    font-size:34px;
+
+}
+
+.section-heading h2{
+
+    font-size:28px;
+
+}
+
+.research-hero p{
+
+    font-size:16px;
+
+}
+
+.footer-about h3{
+
+    font-size:24px;
+
+}
+
+}
